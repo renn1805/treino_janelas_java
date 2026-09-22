@@ -2,28 +2,28 @@ import javax.swing.*;
 
 public class Exercicio1 {
 
-    private class Numerario {
-        private final int valorCentavos;
-        private int quantidadeContada = 0;
 
-        public Numerario(int valorCentavos) {
-            this.valorCentavos = valorCentavos;
+    public static void main(String[] args) {
+         class Numerario {
+            private final int valorCentavos;
+            private int quantidadeContada = 0;
+
+            public Numerario(int valorCentavos) {
+                this.valorCentavos = valorCentavos;
+            }
+
+            public int getValorCentavos() {
+                return valorCentavos;
+            }
+
+            public int getQuantidadeContada() {
+                return quantidadeContada;
+            }
+
+            public void setQuantidadeContada(int quantidadeContada) {
+                this.quantidadeContada = quantidadeContada;
+            }
         }
-
-        public int getValorCentavos() {
-            return valorCentavos;
-        }
-
-        public int getQuantidadeContada() {
-            return quantidadeContada;
-        }
-
-        public void setQuantidadeContada(int quantidadeContada) {
-            this.quantidadeContada = quantidadeContada;
-        }
-    }
-
-    void main() {
 
         Numerario[] numerarios = {
                 new Numerario(10000),

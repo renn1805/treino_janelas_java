@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Exercicio3 {
 
-    void main() {
+    public static void main(String[] args) {
 
         String[] unidades = {"Celsius", "Kelvin", "Fahrenheit"};
 

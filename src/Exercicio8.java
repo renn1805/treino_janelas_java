@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Exercicio8 {
 
-    void main() {
+    public static void main(String[] args) {
 
         String[] sexos = {"Mulher", "Homem"};
 

@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Exercicio5 {
 
-    void main() {
+    public static void main(String[] args) {
 
         String[] moedas = {"Real", "Dólar"};
 

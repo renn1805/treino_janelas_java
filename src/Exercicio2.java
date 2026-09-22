@@ -2,8 +2,7 @@ import javax.swing.*;
 
 public class Exercicio2 {
 
-    void main() {
-
+    public static void main(String[] args) {
         String[] tipos = {"Física", "Jurídica"};
 
         String tipoPessoa = (String) JOptionPane.showInputDialog(

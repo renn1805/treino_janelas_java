@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Exercicio4 {
 
-    void main() {
+    public static void main(String[] args) {
 
         String nome = JOptionPane.showInputDialog(
                 null,

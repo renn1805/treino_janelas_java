@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Exercicio7 {
 
-    void main() {
+    public static void main(String[] args) {
 
         String[] cargos = {"Gerente", "Técnico", "Auxiliar", "Outros"};
 

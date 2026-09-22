@@ -2,34 +2,35 @@ import javax.swing.*;
 
 public class Exercicio6 {
 
-    private class Produto {
-        private final String nome;
-        private final double preco;
-        private int quantidade = 0;
 
-        public Produto(String nome, double preco) {
-            this.nome = nome;
-            this.preco = preco;
+    public static void main(String[] args) {
+        class Produto {
+            private final String nome;
+            private final double preco;
+            private int quantidade = 0;
+
+            public Produto(String nome, double preco) {
+                this.nome = nome;
+                this.preco = preco;
+            }
+
+            public String getNome() {
+                return nome;
+            }
+
+            public double getPreco() {
+                return preco;
+            }
+
+            public int getQuantidade() {
+                return quantidade;
+            }
+
+            public void setQuantidade(int quantidade) {
+                this.quantidade = quantidade;
+            }
         }
 
-        public String getNome() {
-            return nome;
-        }
-
-        public double getPreco() {
-            return preco;
-        }
-
-        public int getQuantidade() {
-            return quantidade;
-        }
-
-        public void setQuantidade(int quantidade) {
-            this.quantidade = quantidade;
-        }
-    }
-
-    void main() {
 
         Produto[] produtos = {
                 new Produto("Rapadura", 1.50),
